@@ -1,0 +1,13 @@
+h1{
+    color: red
+}
+.user{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between;
+    border: solid black 1px; 
+    padding: 10px
+
+}
