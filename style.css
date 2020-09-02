@@ -1,13 +1,86 @@
 h1{
-    color: red
+    text-align: center
 }
-.user{
-    display: flex;
+/* table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+
+  th{
+      font-size: 25px;
+  }
+
+  table.redTable {
+    border: 2px solid #A40808;
+    background-color: #EEE7DB;
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    justify-content: space-between;
-    border: solid black 1px; 
-    padding: 10px
-
-}
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.redTable td, table.redTable th {
+    border: 1px solid #AAAAAA;
+    padding: 3px 2px;
+  }
+  table.redTable tbody td {
+    font-size: 24px;
+  }
+  table.redTable tr:nth-child(even) {
+    background: #F5C8BF;
+  }
+  table.redTable thead {
+    background: #A40808;
+  }
+  table.redTable thead th {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #A40808;
+  }
+  table.redTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.redTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #A40808;
+  }
+  table.redTable tfoot td {
+    font-size: 13px;
+  }
+  table.redTable tfoot .links {
+    text-align: right;
+  }
+  table.redTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #A40808;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+  .fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .fa:hover {
+    color: darkblue;
+  }
