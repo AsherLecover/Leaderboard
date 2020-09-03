@@ -52,6 +52,8 @@ function createTemplate() {
 table.innerHTML += createTemplate();
 
 function likeFn(id) {
+  console.log(id);
+  
   templete = mainTemplate;
   for (let i = 0; i < users.length; i++) {
     if (id == users[i].id) {
